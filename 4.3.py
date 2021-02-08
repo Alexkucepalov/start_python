@@ -7,7 +7,7 @@ my_list_1 = [2, 2, 5, 12, 8, 2, 12]
 [5, 8]"""
 
 my_list_1 = [1, 2, 5, 6, 8, 4, 1, 8]
-result: list[int] = []
+result = []
 for i in my_list_1:
     if my_list_1.count(i) == 1:
         result.append(i)
